@@ -15,8 +15,7 @@
         tools:targetApi="31">
         <service android:name=".ExampleService"
             android:exported="false"
-            android:process=":MyService"
-            android:description="Service from 'MyService' that provides XXFeature "/>
+            android:process=":MyService" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
